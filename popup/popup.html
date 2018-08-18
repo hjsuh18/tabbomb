@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TabBomb</title>
+	<script src="../jquery-3.1.0.min" type="text/javascript"></script>
+	<script src="popup.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+</head>
+<body>
+	<h1>This Tab Will Close In: </h1>
+	<table class="countdownContainter">
+		<tr>
+			<td id="hour">01</td>
+			<td>:</td>
+			<td id="minute">00</td>
+			<td>:</td>
+			<td id="second">00</td>
+		</tr>
+	</table>
+	<button class="button" id="startTimer">Start Timer</button>
+	<button class="button" id="stopTimer">Reset Timer</button>
+
+	<h2>Change Default Time:</h2>
+	<form id="timerDefault" method="post">
+		<table class="setTimer">
+			<tr>
+				<td>
+					<select class="custom-select" id="hour">
+						<option value="null" disabled selected>Hour</option>
+						<option value="0">0</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+					</select>
+				</td>
+				<td class="colon">:</td>
+				<td>
+					<select class="custom-select" id="minute">
+						<option value="null" disabled selected>Minute</option>
+						<option value="0">0</option>
+						<option value="5">5</option>
+						<option value="10">10</option>
+						<option value="15">15</option>
+						<option value="20">20</option>
+						<option value="25">25</option>
+						<option value="30">30</option>
+						<option value="35">35</option>
+						<option value="40">40</option>
+						<option value="45">45</option>
+						<option value="50">50</option>
+						<option value="55">55</option>
+					</select>
+				</td>
+				<td class="colon">:</td>
+				<td>
+					<select class="custom-select" id="second">
+						<option value="null" disabled selected>Second</option>
+						<option value="0">0</option>
+						<option value="15">15</option>
+						<option value="30">30</option>
+						<option value="45">45</option>
+					</select>
+				</td>
+				<td>
+					<button type="submit" class="button" id="changeDefault">Change</button>
+				</td>
+			</tr>
+		</table>
+
+	</form>
+</body>
+</html>

@@ -1,0 +1,75 @@
+body {
+	margin: 20px;
+	width: 300px;
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+	color: #0f1626;
+}
+
+.countdownContainter{
+	position: relative;
+	left: 10%;
+	width: 80%;
+	padding: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+	background: #f5f5f5;
+	color: #ff533d;
+	border: 1px solid #ab987a;
+	box-shadow: 0 0 2px 1px #ab987a;
+	font-size: 30px;
+}
+
+.setTimer{
+
+	position: relative;
+	left: 10%;
+	width: 80%;
+	margin-bottom: 20px;
+	text-align: center;
+	color: #ff533d;
+}
+
+.button{
+	border: none;
+	color: white;
+	padding: 16px 16px;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+	opacity: 0.6;
+	transition: 0.3s;
+	display: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.button:hover {opacity: 1}
+
+#startTimer{
+	background-color: #015249;
+}
+
+#stopTimer{
+	background-color: #ff533d;
+}
+
+#changeDefault{
+	padding: 4px 4px;
+	font-size: 14px;
+	margin: 4px 2px;
+	background-color: #ab987a;
+}
+
+.colon{
+	font-size: 20px;
+}
+
+.custom-select {
+	font-size: 14px;
+	font-family: 'PT Sans', sans-serif;
+}
