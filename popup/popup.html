@@ -20,34 +20,34 @@
 		</tr>
 	</table>
 	<button class="button" id="startTimer">Start Timer</button>
-	<button class="button" id="stopTimer">Reset Timer</button>
+	<button class="button" id="resetTimer">Reset Timer</button>
 
 	<h2>Change Default Time:</h2>
-	<form id="timerDefault" method="post">
+	<form id="timerDefault">
 		<table class="setTimer">
 			<tr>
 				<td>
-					<select class="custom-select" id="hour">
+					<select class="custom-select" id="hourSelect">
 						<option value="null" disabled selected>Hour</option>
-						<option value="0">0</option>
-						<option value="1">1</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5">5</option>
-						<option value="6">6</option>
-						<option value="7">7</option>
-						<option value="8">8</option>
-						<option value="9">9</option>
+						<option value="00">0</option>
+						<option value="01">1</option>
+						<option value="02">2</option>
+						<option value="03">3</option>
+						<option value="04">4</option>
+						<option value="05">5</option>
+						<option value="06">6</option>
+						<option value="07">7</option>
+						<option value="08">8</option>
+						<option value="09">9</option>
 						<option value="10">10</option>
 					</select>
 				</td>
 				<td class="colon">:</td>
 				<td>
-					<select class="custom-select" id="minute">
+					<select class="custom-select" id="minuteSelect">
 						<option value="null" disabled selected>Minute</option>
-						<option value="0">0</option>
-						<option value="5">5</option>
+						<option value="00">0</option>
+						<option value="05">5</option>
 						<option value="10">10</option>
 						<option value="15">15</option>
 						<option value="20">20</option>
@@ -62,16 +62,16 @@
 				</td>
 				<td class="colon">:</td>
 				<td>
-					<select class="custom-select" id="second">
+					<select class="custom-select" id="secondSelect">
 						<option value="null" disabled selected>Second</option>
-						<option value="0">0</option>
+						<option value="00">0</option>
 						<option value="15">15</option>
 						<option value="30">30</option>
 						<option value="45">45</option>
 					</select>
 				</td>
 				<td>
-					<button type="submit" class="button" id="changeDefault">Change</button>
+					<button class="button" id="changeDefault" type="submit">Change</button>
 				</td>
 			</tr>
 		</table>
