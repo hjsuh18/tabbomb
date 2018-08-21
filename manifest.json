@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "TabBomb",
 	"version": "1.0",
-	"description": "A time bomb for tabs you open for quick search",
+	"description": "A time bomb for tabs you open.",
 
 	// Icons made by http://www.freepik.com from flaticon https://www.flaticon.com is licensed by Creative Commons BY 3.0 http://creativecommons.org/licenses/by/3.0/
 	"icons": {
@@ -27,5 +27,17 @@
 		"tabs",
 		"storage",
 		"notifications"
-	]
+	],
+
+	"commands": {
+		"open_tabBomb": {
+			"suggested_key": {
+				"windows": "Ctrl+B",
+				"mac": "Command+B",
+				"chromeos": "Ctrl+B",
+				"linux": "Ctrl+B"
+			},
+			"description": "Open new tab and set off TabBomb"
+		}
+	}
 }
