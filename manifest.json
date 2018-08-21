@@ -2,10 +2,9 @@
 	"manifest_version": 2,
 	"name": "TabBomb",
 	"version": "1.0",
-	"description": "A time bomb for tabs you open.",
+	"description": "A time bomb for tabs.",
 
-	// Icons made by http://www.freepik.com from flaticon https://www.flaticon.com is licensed by Creative Commons BY 3.0 http://creativecommons.org/licenses/by/3.0/
-	"icons": {
+	"icons": {		
 		"128": "icons/bomb128.png",
 		"32": "icons/bomb32.png",
 		"16": "icons/bomb16.png"
